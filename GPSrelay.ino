@@ -17,6 +17,7 @@ EthernetUDP Udp;
 const byte MaxBytes = 1000;
 char GPSdata[MaxBytes];
 char NewByte;
+
 byte Count = 0;
 bool GPSheaderFound = false;
 char CheckSum[2];
